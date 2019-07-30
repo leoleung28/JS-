@@ -1,13 +1,13 @@
 # JS面试题集锦
 ### 一、基础题目
-> #### 1，‘<! DOCTYPE>’的作用是什么？为什么HTML只需要写‘<!DOCTYPE>’
+> #### 1，<!DOCTYPE>的作用是什么？为什么HTML只需要写<!DOCTYPE>
 > 难度：*
 
-- ‘<!DOCTYPE>’ 声明位于文档中的最前面的位置，处于< html >标签之前，声明文档的解析类型(document.compatMode)，避免浏览器的怪异模式
+- <!DOCTYPE>声明位于文档中的最前面的位置，处于html标签之前，声明文档的解析类型(document.compatMode)，避免浏览器的怪异模式
 <br/>
-- ‘<!DOCTYPE>’ 声明不是一个 HTML 标签；它是用来告知 Web 浏览器页面使用了哪种 HTML 版本;
+- <!DOCTYPE>声明不是一个HTML标签;它是用来告知 Web 浏览器页面使用了哪种 HTML 版本;
 <br/>
-- 在 HTML 4.01 中，‘<!DOCTYPE>’ 声明需引用 DTD （文档类型声明），因为 HTML 4.01 是基于 SGML （Standard Generalized Markup Language 标准通用标记语言）。DTD 指定了标记语言的规则，确保了浏览器能够正确的渲染内容；
+- 在 HTML 4.01 中，<!DOCTYPE>声明需引用 DTD （文档类型声明），因为 HTML 4.01 是基于 SGML （Standard Generalized Markup Language 标准通用标记语言）。DTD 指定了标记语言的规则，确保了浏览器能够正确的渲染内容；
 <br/>
 - HTML5 不是基于 SGML，因此不要求引用 DTD；
 <br/>
