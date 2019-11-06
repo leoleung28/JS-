@@ -1,2 +1,2 @@
-# JS面试题
+## JS集锦
 ### Edit by Leeeung28
